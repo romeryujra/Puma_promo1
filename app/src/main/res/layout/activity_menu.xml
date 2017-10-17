@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.romeryujra.puma_promo.Menu"
+    android:background="@color/plomo"
+    >
+    <LinearLayout
+        android:id="@+id/llfront"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:weightSum="15">
+
+        <LinearLayout
+            android:id="@+id/llbanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:background="@drawable/wallpaper"
+            android:orientation="vertical"
+            android:transitionGroup="false"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llmenufront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnmenu1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="Validador"
+                android:textColor="@color/plomo_obscuro" />
+
+            <Button
+                android:id="@+id/btnmenu2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnmenu2"
+                android:padding="25dp"
+                android:text="Audio Visuales"
+                android:textColor="@color/plomo_obscuro" />
+
+            <Button
+                android:id="@+id/btnmenu3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnmenu4"
+                android:layout_gravity="center_horizontal"
+                android:padding="25dp"
+                android:text="Uso Camaras"
+                android:textColor="@color/plomo_obscuro" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="10" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/redondear"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <LinearLayout
+                android:id="@+id/llcontenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:textAlignment="gravity">
+                <Button
+                    android:id="@+id/btnscroll1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ENCENDIDO"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/btnmenu4"
+                    android:textColor="@color/plomo_obscuro"
+                    android:padding="25dp" />
+                <Button
+                    android:id="@+id/btnscroll2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CARGA VALIDADOR"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/btnmenu5"
+                    android:textColor="@color/plomo_obscuro"
+                    android:padding="25dp" />
+                <Button
+                    android:id="@+id/btnscroll3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VERIFICAR FECHA"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/btnmenu6"
+                    android:textColor="@color/plomo_obscuro"
+                    android:padding="25dp" />
+                <Button
+                    android:id="@+id/btnscroll4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="REVISION BASE DE DATOS"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/btnmenu7"
+                    android:textColor="@color/plomo_obscuro"
+                    android:padding="25dp" />
+                <Button
+                    android:id="@+id/btnscroll5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARJETA INTELIGENTE"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/btnmenu7"
+                    android:textColor="@color/plomo_obscuro"
+                    android:padding="25dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/llvolver"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnvolver"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver"
+                android:textColor="@color/plomo_obscuro" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llmenu1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="10" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/redondear"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <LinearLayout
+                android:id="@+id/llcontenido1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:textAlignment="gravity">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnvolver1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/plomo_obscuro"
+                android:text="MENU PRINCIPAL" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

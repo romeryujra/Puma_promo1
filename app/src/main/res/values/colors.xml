@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cafe">#F1F1F1</color>
+    <color name="plomo">#f1f1f1</color>
+    <color name="dorado">#CB9853</color>
+    <color name="blanco">#ffffff</color>
+    <color name="plomo_obscuro">#464942</color>
+</resources>
